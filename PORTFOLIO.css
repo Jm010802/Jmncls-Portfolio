@@ -135,6 +135,25 @@ header .navbar ul li a{
 header .navbar ul li a:hover{
     background: var(--yellow);
 }
+header .wrapper{
+    padding-top: 4.5%;
+    display: flex;
+}
+header .wrapper .button{
+    padding-right: 26px;
+    padding-left: 13px;
+    font-size: 16.5px;
+    color: #fff;
+}
+header .wrapper .button a:visited, a:active{
+    color: white;
+}
+header .wrapper .button .icon{
+    font-size: 180%;
+}
+header .wrapper .button span{
+    font-size: 80%;
+}
 
 #menu{
     position: fixed;
