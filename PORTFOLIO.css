@@ -221,6 +221,10 @@ header .wrapper .button span{
     padding: 2rem 1rem;
     padding-left: 6rem;
 }
+.about .row .info ul li{
+    padding-left: .5rem;
+    list-style-type: none;
+}
 
 .education .box-container{
     display: flex;
@@ -376,7 +380,7 @@ header .wrapper .button span{
 
 /* meadia queries */
 
-@media (max-width:1900px){
+@media (max-width:2183px){
     
     html{
         font-size: 55%;
@@ -397,8 +401,8 @@ header .wrapper .button span{
     }
 }
 
-@media (max-width:801px){
-    
+@media (max-width:435px){
+
     #menu{
         display: block;
     }
@@ -419,6 +423,17 @@ header .wrapper .button span{
     .home{
         padding: 0rem;
         padding-right: 0rem;
+    }
+    .about .row .info{
+        padding-right: 4.5rem;
+    }
+    .portfolio .box-container .row .column{
+        padding-left: 4.5rem;
+        padding-right: 20rem;
+    }
+    .portfolio .box-container .column{
+        box-sizing: content-box;
+        width: 80%;
     }
     
     .education .box-container .box{
