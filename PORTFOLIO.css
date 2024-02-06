@@ -42,7 +42,7 @@ html::-webkit-scrollbar-thumb{
 body{
     background: #111;
     overflow-x: hidden;
-    padding-left: 35rem;
+    /*padding-left: 35rem;*/
 }
 
 section{
@@ -376,45 +376,49 @@ header .wrapper .button span{
 
 /* meadia queries */
 
-@media (max-width:1200px){
+@media (max-width:1900px){
     
     html{
         font-size: 55%;
-        
+        padding-left: 35rem;
     }
 }
 
-@media (max-width:991px){
-    
-    header{
-        left: -120%;
-    }
-    
-    #menu{
-        display: block;     
-    }  
-    
-    header.toggle{
-        left: 0%;
-    }
-}
-
-@media (max-width:768px){
-    
+@media (max-width:1025px){
     html{
         font-size: 50%;
     }
-    
+    header{
+        left: 0%;
+    }
+    .home{
+        padding: 5rem;
+        padding-right: 8rem;
+    }
 }
 
-@media (max-width:400px){
+@media (max-width:801px){
     
+    #menu{
+        display: block;
+    }
+    html{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
     header{
         width: 100vw;
+        left: -120%;
     }
-    
+    header.toggle{
+        left: 0%;
+    }
     .heading{
         margin: 0 3rem;
+    }
+    .home{
+        padding: 0rem;
+        padding-right: 0rem;
     }
     
     .education .box-container .box{
@@ -428,15 +432,3 @@ header .wrapper .button span{
         margin: 3rem 0;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
