@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 
 :root{
     --yellow:#f2aa4cff;
@@ -6,7 +7,7 @@
 
 
 *{
-    font-family: 'Roboto Condensed' , 'Regular';
+    font-family: "Syne", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -46,7 +47,6 @@ body{
 }
 
 section{
-    min-height: 100vh;
     padding: 1rem;
 }
 
@@ -114,6 +114,7 @@ header .user .name{
 header .user .course{
     font-size: 2rem;
     color: #eee;
+    font-family: "Questrial", sans-serif;
 }
 
 header .navbar ul{
@@ -130,6 +131,7 @@ header .navbar ul li a{
     font-size: 2rem;
     border-radius: 5rem;
     text-transform: uppercase;
+    font-family: "Questrial", sans-serif;
 }
 
 header .navbar ul li a:hover{
@@ -153,6 +155,7 @@ header .wrapper .button .icon{
 }
 header .wrapper .button span{
     font-size: 80%;
+    font-family: "Questrial", sans-serif;
 }
 
 #menu{
@@ -172,6 +175,7 @@ header .wrapper .button span{
     justify-content: center;
     flex-flow: column;
     padding: 0 15rem;
+    min-height: 100vh;
 }
 
 .home h3{
@@ -192,15 +196,16 @@ header .wrapper .button span{
     font-size: 2rem;
     color: #eee;
     padding: 1rem 0;
+    font-family: "Questrial", sans-serif;
 }
 
 
 .about .row {
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     padding: 1rem 0;
+    min-height: 60vh;
 }
 
 .about .row h3{
@@ -209,11 +214,13 @@ header .wrapper .button span{
     padding: 1rem 0;
     font-weight: normal;
     font-size: 22.5px;
+    font-family: "Questrial", sans-serif;
 }
 
 .about .row h3 span{
     color: #eee;
     padding: 0 .5rem;
+    font-family: "Questrial", sans-serif;
 }
 .about .row .info{
     flex: 1 1 48rem;
@@ -223,6 +230,7 @@ header .wrapper .button span{
 .about .row .info ul li{
     padding-left: .5rem;
     list-style-type: none;
+    font-family: "Questrial", sans-serif;
 }
 
 .education .box-container{
@@ -232,6 +240,7 @@ header .wrapper .button span{
     flex-wrap: wrap;
     padding: 1rem 0;
     padding-left: 3rem;
+    min-height: 60vh;
 }
 
 .education .box-container .box{
@@ -248,18 +257,21 @@ header .wrapper .button span{
     color: #fff;
     border-radius: 5rem;
     padding: .5rem 2.5rem;
+    font-family: "Questrial", sans-serif;
 }
 
 .education .box-container .box h3{
     font-size: 2rem;
     color: #fff;
     padding-top: 1.5rem;
+    font-family: "Questrial", sans-serif;
 }
 
 .education .box-container .box p{
     font-size: 1.4rem;
     color: #eee;
     padding-top: 1rem 0;
+    font-family: "Questrial", sans-serif;
 }
 
 .education .box-container .box i{
@@ -281,18 +293,26 @@ header .wrapper .button span{
     flex: 1 1 48rem;
     padding: 1rem 1rem;
     padding-left: 1rem;
+    padding-right: 10rem;
 }
 .portfolio .box-container .column{
-    display: inline-block;
-    width: 50%;
+    display: flex;
+    width: 99%;
     padding-left: 50px;
     padding-top: 30px;
 }
+.portfolio .box-container .column img{
+    height: auto;
+    display: block;
+    width: 55%;
+}
 .portfolio .box-container .column p{
     color: #fff;
-    width: 100%;
     font-size: 2rem;
     font-weight: 500;
+    text-align: justify;
+    font-family: "Questrial", sans-serif;
+    line-height: 25px;
 }
 
 
@@ -324,6 +344,7 @@ header .wrapper .button span{
     text-transform: none;
     font-size: 1.7rem;
     width: 100%;
+    font-family: "Questrial", sans-serif;
 }
 
 .contact .row form .box::placeholder{
@@ -396,6 +417,17 @@ header .wrapper .button span{
         padding: 5rem;
         padding-right: 8rem;
     }
+    .portfolio .box-container .column{
+        display: block;
+    }
+    .portfolio .box-container .column img{
+        width: 100%;
+        padding-bottom: 3%;
+    }
+    .portfolio .box-container .column p{
+        text-align: start;
+        line-height: 25px;
+    }
 }
 
 @media (max-width:435px){
@@ -430,7 +462,16 @@ header .wrapper .button span{
     }
     .portfolio .box-container .column{
         box-sizing: content-box;
-        width: 80%;
+    }
+    .portfolio .box-container .column p{
+        text-align: center;
+        line-height: 30px;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .portfolio .box-container .column img{
+        padding-bottom: 8%;
+        width: 100%;
     }
     
     .education .box-container .box{
