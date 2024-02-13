@@ -237,7 +237,6 @@ header .wrapper .button span{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
     padding: 1rem 0;
     padding-left: 3rem;
     min-height: 60vh;
@@ -313,6 +312,7 @@ header .wrapper .button span{
     text-align: justify;
     font-family: "Questrial", sans-serif;
     line-height: 25px;
+    padding-top: 10.5px;
 }
 
 
@@ -406,7 +406,7 @@ header .wrapper .button span{
     }
 }
 
-@media (max-width:1025px){
+@media (max-width:1281px){
     html{
         font-size: 50%;
     }
@@ -430,7 +430,7 @@ header .wrapper .button span{
     }
 }
 
-@media (max-width:435px){
+@media (max-width:1025px){
 
     #menu{
         display: block;
@@ -473,12 +473,14 @@ header .wrapper .button span{
         padding-bottom: 8%;
         width: 100%;
     }
-    
+    .education .box-container{
+        display: inline-block;
+    }
     .education .box-container .box{
         width: 100%;
     }
     
-    .portfolio .box-container .box{
+    .portfolio .box-container{
         width: 100%;
     }
     .contact .row form{
