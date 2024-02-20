@@ -317,6 +317,9 @@ header .wrapper .button span{
 .portfolio .box-container {
     margin-left: 15%;
 }
+.portfolio .box-container .btn{
+    margin-left: 22.5%;
+}
 .portfolio .box-container .slider{
     width: 800px;
     height: 500px;
@@ -493,6 +496,9 @@ header .wrapper .button span{
     header{
         left: 0%;
     }
+    .portfolio .box-container .btn{
+        margin-left: 25%;
+    }
     .home{
         padding: 5rem;
         padding-right: 8rem;
@@ -521,6 +527,9 @@ header .wrapper .button span{
     html{
         padding-left: 3rem;
         padding-right: 3rem;
+    }
+    .portfolio .box-container .btn{
+        margin-left: 26%;
     }
     header{
         width: 100vw;
@@ -579,6 +588,9 @@ header .wrapper .button span{
     }
 }
 @media (max-width:821px){
+    .portfolio .box-container .btn{
+        margin-left: 23%;
+    }
     .portfolio .box-container .slide img{
         padding-right: 12%;
         padding-top: 3%;
@@ -591,6 +603,9 @@ header .wrapper .button span{
     }
 }
 @media (max-width:769px){
+    .portfolio .box-container .btn{
+        margin-left: 25%;
+    }
     .portfolio .box-container .slide img{
         padding-right: 45%;
         padding-top: 3%;
@@ -607,6 +622,10 @@ header .wrapper .button span{
     }
 }
 @media (max-width:431px){
+    .portfolio .box-container .btn{
+        font-size: 1.5rem;
+        margin-left: 12%;
+    }
     .portfolio .box-container .slide img{
         padding-left: 0%;
         padding-top: 3%;
@@ -625,6 +644,10 @@ header .wrapper .button span{
     }
 }
 @media (max-width:395px){
+    .portfolio .box-container .btn{
+        font-size: 1.5rem;
+        margin-left: 9%;
+    }
     .portfolio .box-container .slider {
         width: 220%;
     }
