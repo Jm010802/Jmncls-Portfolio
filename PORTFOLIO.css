@@ -624,7 +624,7 @@ header .wrapper .button span{
         display: none;
     }
 }
-@media (max-width:391px){
+@media (max-width:395px){
     .portfolio .box-container .slider {
         width: 220%;
     }
