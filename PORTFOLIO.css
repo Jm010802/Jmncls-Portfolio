@@ -319,6 +319,7 @@ header .wrapper .button span{
 }
 .portfolio .box-container .btn{
     margin-left: 22.5%;
+    margin-top: 4%;
 }
 .portfolio .box-container .slider{
     width: 800px;
@@ -339,7 +340,7 @@ header .wrapper .button span{
     transition: 2s;
 }
 .portfolio .box-container .slide img{
-    padding-top: 10%;
+    padding-top: 5%;
     width: 800px;
     height: 500px;
 }
@@ -622,19 +623,14 @@ header .wrapper .button span{
     }
 }
 @media (max-width:431px){
-    .portfolio .box-container .btn{
-        font-size: 1.5rem;
-        margin-left: 12%;
-    }
+
     .portfolio .box-container .slide img{
-        padding-left: 0%;
-        padding-top: 3%;
         max-width: 91%;
-        height: 300px;
+        max-height: 250px;
     }
     .portfolio .box-container {
         margin: 0;
-        height: 400px;
+        height: 600px;
     }
     .portfolio .box-container .navigation-auto {
         display: none;
@@ -642,10 +638,14 @@ header .wrapper .button span{
     .portfolio .box-container .navigation-manual {
         display: none;
     }
+        .portfolio .box-container .btn{
+        font-size: 3rem;
+        margin-left: 3%;
+    }
 }
 @media (max-width:395px){
     .portfolio .box-container .btn{
-        font-size: 1.5rem;
+        font-size: 3rem;
         margin-left: 9%;
     }
     .portfolio .box-container .slider {
@@ -659,7 +659,7 @@ header .wrapper .button span{
     }
     .portfolio .box-container {
         margin: 0;
-        height: 300px;
+        height: 600px;
     }
     .portfolio .box-container .navigation-auto {
         display: none;
