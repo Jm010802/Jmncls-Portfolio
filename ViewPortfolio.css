@@ -28,7 +28,7 @@ html::-webkit-scrollbar-thumb{
     background: var(--yellow);
 }
 .proj1 {
-    background-color: #333;
+    background-color: #000000;
     overflow: hidden;
 }
 .heading h1{
@@ -67,7 +67,7 @@ html::-webkit-scrollbar-thumb{
 }
 .project1 button{
     display: inline-block;
-    background-color: #333;
+    background-color: #000000;
     color: #fff;
     padding:12px 24px;
     border-radius: 5px;
