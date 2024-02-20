@@ -1,1 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 
+:root{
+    --yellow:#f2aa4cff;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Syne", sans-serif;
+}
+.proj1 {
+    background-color: #333;
+    overflow: hidden;
+}
+.heading h1{
+    color: var(--yellow);
+    font-size: 55px;
+    text-align: center;
+    margin-top: 35px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 65px auto;
+}
+.project1{
+    flex: 1;
+    width: 600px;
+    margin: 0px 25px;
+    animation: fadeInUp 2s ease;
+}
+.project1 h2{
+    font-size: 38px;
+    margin-bottom: 20px;
+    color: var(--yellow);
+    font-family: "Questrial", sans-serif;
+    text-decoration: underline;
+
+}
+.project1 p{
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    font-family: "Questrial", sans-serif;
+    color: #fff;
+}
+.project1 button{
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding:12px 24px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-weight: bold;
+}
+.project1 button:hover{
+    transform: scale(1.1);
+    color: #000;
+    background-color: var(--yellow);
+    border: 1px solid #333;
+}
+.image1{
+    flex: 1;
+    width: 600px;
+    margin: auto;
+    animation: fadeInRight 2s ease;
+}
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+
+
+
+/*media queries*/
+
+@media screen and (max-width: 768px){
+    .heading h1{
+        font-size: 45px;
+        margin-top: 30px;
+    }
+    .proj1{
+        margin: 0px;
+    }
+    .container{
+        width: 100%;
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px 40px;
+    }
+    .project1{
+        width: 100%;
+        margin: 35px 0px;
+    }
+    .project1 h2{
+        font-size: 30px;
+    }
+    .project1 p{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .project1 button{
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+    .image1{
+        width: 100%;
+    }
+}
